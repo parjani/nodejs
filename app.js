@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser())
 
-app.use('/NodeAPI', users);
+app.use('/', users);
 module.exports = app;
 
 // Access the API key
